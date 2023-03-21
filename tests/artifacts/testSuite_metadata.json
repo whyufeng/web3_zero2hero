@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "checkSuccess",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "checkSuccess2",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "checkFailure",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "checkSenderAndValue",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'"
+				},
+				"checkSenderAndValue()": {
+					"notice": "Custom Transaction Context: https://remix-ide.readthedocs.io/en/latest/unittesting.html#customization #sender: account-1 #value: 100"
+				}
+			}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Token02Hero_test.sol": "testSuite"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Token02Hero.sol": {
+			"keccak256": "0x89b3d6799c4c4aa45de10e321543138ccec065b038bf980c29c21996062a2dba",
+			"urls": [
+				"bzzr://3443e95e6a90d369d6c29d44f669ee99ff03db93c21bac0153c47cd9cd839e8c"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0x198a94b8e0342a81c31fda8ba387964155802ef81807e01e83e2320682dce327",
+			"urls": [
+				"bzzr://2bff8364ade4e6e58cdf5aa5daaf8f26499e80e8f94fce7fb37033dcfc6dfd85"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"urls": [
+				"bzzr://cfd77e0ea2b0d86dc68ac80b1693ae358a9f2972edb9fd5552bd33960715a5ff"
+			]
+		},
+		"tests/Token02Hero_test.sol": {
+			"keccak256": "0xa86472edffc0575d52632db19057dfd37a99aaaf3dbba48321078f7ab0460049",
+			"urls": [
+				"bzzr://a3a2426af54ed848d0695d4b58b92fecabab6b77c267d29379d27ad1d18135ee"
+			]
+		}
+	},
+	"version": 1
+}
