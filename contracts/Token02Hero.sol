@@ -51,7 +51,7 @@ contract ApproveAndCallFallBack {
  
 //Actual token contract
  
-contract QKCToken is ERC20Interface, SafeMath {
+contract THToken is ERC20Interface, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -61,7 +61,7 @@ contract QKCToken is ERC20Interface, SafeMath {
     mapping(address => mapping(address => uint)) allowed;
  
     constructor() public {
-        symbol = "T02H";
+        symbol = "TH";
         name = "Zero 2 Hero Coin";
         decimals = 2;
         _totalSupply = 10000000;
